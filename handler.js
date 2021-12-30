@@ -1,5 +1,9 @@
+const fs = require('fs');
+ 
 module.exports = {
   main: async function (event, _) {
-    return "Hello from GitHub"
+    const data = fs.readFileSync('./recordings.json',
+            {encoding:'utf8', flag:'r'});
+    return data
   }
 }
