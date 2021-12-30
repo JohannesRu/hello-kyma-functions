@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const recordings = fs.readFileSync(__dirname + '/recordings.json', {encoding:'utf8', flag:'r'});
+const recordings = JSON.parse(fs.readFileSync(__dirname + '/recordings.json', {encoding:'utf8', flag:'r'}));
 
 module.exports = { 
     main: function (event, context) {
