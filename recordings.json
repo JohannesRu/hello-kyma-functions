@@ -825,6 +825,13 @@
 							"value": "https"
 						}
 					],
+					"query": {
+						"sap-documentation": [
+							{
+								"matcher": "exact",
+								"value": "all"
+							}
+					},
 					"body": [
 						{
 							"matcher": "exact",
