@@ -2,6 +2,5 @@
   "name": "orders-function",
   "version": "1.0.0",
   "dependencies": {
-    "redis": "3.0.2"
   }
 }
