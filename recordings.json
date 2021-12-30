@@ -831,6 +831,7 @@
 								"matcher": "exact",
 								"value": "all"
 							}
+							]
 					},
 					"body": [
 						{
